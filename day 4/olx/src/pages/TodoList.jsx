@@ -145,6 +145,11 @@ function Card(props) {
     {props.desc.length > 10 ? props.desc.substring(0, 10) + '...' : props.desc}
    </div>
    <button onClick={props.delete}>delete</button>
+
+   {/* <div>ayam goreng</div>
+   <div>3</div>
+   <div>10.000</div>
+   <div>30.000</div> */}
   </div>
  );
 }
